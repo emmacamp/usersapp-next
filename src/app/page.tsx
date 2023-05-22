@@ -1,15 +1,17 @@
 "use client"
 
 import { FC } from 'react'
-import { Container } from '@mantine/core';
+import UsersCards from '@/components/UsersCards';
 interface pageProps {
-  
+
 }
 
-const page: FC<pageProps> = ({}) => {
+const page: FC<pageProps> = ({ }) => {
   return (
-   <h1>app</h1>
+    <>
+      <UsersCards />
 
+    </>
   )
 }
 
